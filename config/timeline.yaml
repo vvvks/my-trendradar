@@ -436,7 +436,7 @@ custom:
       end: "06:00"                 # 23:00 → 次日 06:00（跨日时间段）
       collect: true                # 夜间继续采集数据
       analyze: true                # 夜间可以跑 AI 分析（反正不推送）
-      push: false                  # 深夜不推送，避免打扰
+      push: true                   # 深夜不推送，避免打扰
 
     weekday_morning:
       name: "工作日早间"
